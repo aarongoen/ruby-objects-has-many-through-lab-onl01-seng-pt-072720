@@ -1,4 +1,5 @@
 class Artist 
+<<<<<<< HEAD
     attr_accessor :name, :song, :genre 
     
     @@all = [] 
@@ -32,3 +33,23 @@ class Artist
     
   end 
   
+=======
+  attr_accessor :name 
+  
+  @@all = [] 
+  
+  def initialize(name)
+    @name = name 
+    @@all << self 
+  end 
+  
+  def self.all 
+    @@all
+  end 
+  
+  def songs 
+    
+  end 
+  
+end 
+>>>>>>> 0ac2346a8031f142e86574d48968c52ca80c867f
